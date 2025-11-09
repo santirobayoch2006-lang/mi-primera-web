@@ -1,0 +1,122 @@
+/* 🎨 Estilos generales */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧱 Encabezado */
+header {
+  background-color: #1e90ff;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 📜 Navegación */
+nav {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* 📄 Secciones y artículos */
+section, article {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 📝 Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* 🦶 Footer */
+footer {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 15px;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
+
+footer a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Responsive (celulares) */
+@media (max-width: 600px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section, article {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+}
